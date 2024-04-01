@@ -27,7 +27,7 @@ aws_secret_access_key=
 
 ```bash
 export BUCKET=k8-backup
-export REGION=ap-south-1
+export REGION=us-west-2
 velero install \
     --provider aws \
     --plugins velero/velero-plugin-for-aws:v1.3.0 \
